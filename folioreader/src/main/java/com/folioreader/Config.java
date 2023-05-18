@@ -43,7 +43,7 @@ public class Config implements Parcelable {
     private int themeColor = DEFAULT_THEME_COLOR_INT;
     private int nightThemeColor = themeColor;
     private boolean showTts = true;
-    private boolean showTextSelection = true;
+    private boolean showTextSelection = false;
     private AllowedDirection allowedDirection = DEFAULT_ALLOWED_DIRECTION;
     private Direction direction = DEFAULT_DIRECTION;
     private boolean showRemainingIndicator = false;
